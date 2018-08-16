@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e3e7fbbddb2154491add6b9398fbf01d
+timeCreated: 1497354046
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kells Uncial
+  fontNames:
+  - Kells Uncial
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
