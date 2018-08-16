@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 125
+  controlID: 59
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -370,9 +370,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1a350000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 72e1ffff86e8ffff00000000
+    m_ExpandedIDs: 16fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,20 +642,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Project/Scripts
+    - Assets/Project/Sprites/battle
   m_ViewMode: 1
   m_StartGridSize: 72
   m_LastFolders:
-  - Assets/Project/Scripts
+  - Assets/Project/Sprites/battle
   m_LastFoldersGridSize: 72
   m_LastProjectPath: D:\UnityRPG
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c360000
-    m_LastClickedID: 13836
-    m_ExpandedIDs: 00000000b0330000ee330000203500000c36000000ca9a3b
+    m_SelectedIDs: 4e2d0000
+    m_LastClickedID: 11598
+    m_ExpandedIDs: 00000000962a0000d62a00000e2b0000c82c0000d62d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -683,7 +683,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0330000ee330000203500000c360000
+    m_ExpandedIDs: 00000000962a00000e2b0000c82c0000d62d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 000000006422000004220000ce210000d42100000af4ffff66e3ffff0627000062220000fc21000036220000dc30feffb4220000e2220000ae220000dc2200000022000076e2ffff449effffc022000090220000f2220000f82200006097ffff6e2300009c220000dcbdffff8c2200001822000092f7ffff0ac8ffffb8ddfeff7e240000d6230000ec9bfeff3ef7ffff6a240000d6240000522400000e25000064240000e0230000e62200009c240000a0240000e6230000f2310000648cffff743000002069fcff42b3fbff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
