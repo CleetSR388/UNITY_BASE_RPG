@@ -3,29 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
 public class LevelSystem : MonoBehaviour
 {
-
-
     public int XP;
     public int currentlevel;
 
-    // put the CollectReward script in the respective field in the Unity editor
-    public CollectReward rewardObj;
-
+    // Update is called once per frame
     void Update()
     {
-        if (rewardObj.IsEnemyDefeated())
-        {
-            UpdateXp(5);
-        }
+        UpdateXp(5);
     }
-
 
     public void UpdateXp(int xp)
     {
-         XP += xp;
-        }
+        XP += xp;
 
         int curlvl = (int)(0.1f * Mathf.Sqrt(XP));
 
