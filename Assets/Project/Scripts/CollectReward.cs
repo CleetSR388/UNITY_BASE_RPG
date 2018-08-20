@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CollectReward : MonoBehaviour
 {
+    public LevelSystem lS;
 
     [SerializeField]
     private float experience;
@@ -23,6 +24,7 @@ public class CollectReward : MonoBehaviour
         foreach (GameObject playerUnit in livingPlayerUnits)
         {
             playerUnit.GetComponent<UnitStats>().ReceiveExperience(experiencePerUnit);
+            
         }
 
         Destroy(gameObject);

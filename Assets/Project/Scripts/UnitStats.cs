@@ -22,6 +22,7 @@ public class UnitStats : MonoBehaviour, IComparable {
 	public float defense;
 	public float speed;
 	public float experience;
+    public float level;
 
 	public int nextActTurn;
 

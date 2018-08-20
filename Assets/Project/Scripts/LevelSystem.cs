@@ -12,7 +12,7 @@ public class LevelSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateXp(5);
+           
     }
 
     public void UpdateXp(int xp)
@@ -24,7 +24,7 @@ public class LevelSystem : MonoBehaviour
         if (curlvl != currentlevel)
         {
             currentlevel = curlvl;
-            // add some cool text to show you reached a ew level
+            // add some cool text to show you reached a new level
         }
 
         int xpnextlevel = 100 * (currentlevel * 1);
