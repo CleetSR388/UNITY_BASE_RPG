@@ -6,31 +6,43 @@ using UnityEngine;
 
 public class LevelSystem : MonoBehaviour
 {
-    public int XP;
-    public int currentlevel;
+    public float XP;
+    public int currentLevel;
+    UnitStats unitStats;
+    GameObject[] playerUnits;
 
+    private void Start()
+    {
+        playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
+        currentLevel = GameObject.FindGameObjectWithTag("PlayerUnit").GetComponent<UnitStats>().currentLevel;
+    }
     // Update is called once per frame
     void Update()
     {
-           
+
     }
 
-    public void UpdateXp(int xp)
+    public void UpdateXp(float xp)
     {
-        XP += xp;
+        XP = xp;
+        float xpnextlevel = 100 * (currentLevel * 3);
 
-        int curlvl = (int)(0.1f * Mathf.Sqrt(XP));
-
-        if (curlvl != currentlevel)
+        if (XP == xpnextlevel)
         {
-            currentlevel = curlvl;
-            // add some cool text to show you reached a new level
+            currentLevel++;
+
+            for (int i = 0; i < playerUnits.Length; i++)
+            {
+                unitStats = playerUnits[i].GetComponent<UnitStats>();
+                unitStats.LevelUp();
+            }
+
+            // add some cool text to show you reached a ew level
         }
 
-        int xpnextlevel = 100 * (currentlevel * 1);
-        int differencexp = xpnextlevel - XP;
+        float differencexp = xpnextlevel - XP;
 
-        int totaldifference = xpnextlevel - (100 * currentlevel * currentlevel);
+        //  float totaldifference = xpnextlevel - (100 * currentlevel * currentlevel);
 
         // differencexp / totaldifference
     }
