@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\LevelUp.cs" />
     <Compile Include="Assets\Project\Scripts\AddButtonCallback.cs" />
     <Compile Include="Assets\Project\Scripts\Attack\AttackTarget.cs" />
     <Compile Include="Assets\Project\Scripts\Attack\EnemyUnitAction.cs" />
@@ -79,7 +80,9 @@
     <Compile Include="Assets\Project\Scripts\UI\ShowUnitHealth.cs" />
     <Compile Include="Assets\Project\Scripts\UI\ShowUnitMana.cs" />
     <Compile Include="Assets\Project\Scripts\UI\ShowUnitStat.cs" />
+    <Compile Include="Assets\Project\Scripts\UI\ShowUnitXP.cs" />
     <Compile Include="Assets\Project\Scripts\UnitStats.cs" />
+    <Compile Include="Assets\ShowUnitXP.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />
