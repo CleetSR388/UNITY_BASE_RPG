@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="left-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="atlas.tsx"/>
+ <tileset firstgid="901" source="32 X 32 dungeon tilemap.tsx"/>
+ <tileset firstgid="1685" source="tf_A5_ashlands_1.tsx"/>
+ <layer name="Tile Layer 1" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGLpjGxHBgBhBPB2IQeyYTQwK17XjHiIpn0MGO6XSwYxqdwqqGiYFhFhCDaFrYAQorkPk7gHg7jewAhdUWoNlbgXgblewAALRGKGk=
+  </data>
+ </layer>
+</map>

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 
 
@@ -12,9 +12,10 @@ public class LevelSystem : MonoBehaviour
     public int currentLevel;
     UnitStats unitStats;
     GameObject[] playerUnits;
+    public float xpnextlevel;
 
     private void Start()
-    {
+    {  
         playerUnits = GameObject.FindGameObjectsWithTag("PlayerUnit");
         currentLevel = GameObject.FindGameObjectWithTag("PlayerUnit").GetComponent<UnitStats>().currentLevel;
     }
@@ -27,9 +28,9 @@ public class LevelSystem : MonoBehaviour
     public void UpdateXp(float xp)
     {
         XP = xp;
-        float xpnextlevel = 100 * (currentLevel * 3);
+        xpnextlevel = 100 * (currentLevel * 3);
 
-        if (XP == xpnextlevel)
+        if (XP >= xpnextlevel)
         {
             currentLevel++;
 
@@ -37,6 +38,7 @@ public class LevelSystem : MonoBehaviour
             {
                 unitStats = playerUnits[i].GetComponent<UnitStats>();
                 unitStats.LevelUp();
+                unitStats.experience = 0;
             }
 
             // add some cool text to show you reached a ew level

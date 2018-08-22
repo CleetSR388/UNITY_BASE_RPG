@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.6" orientation="orthogonal" renderorder="left-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextobjectid="6">
+ <tileset firstgid="1" source="atlas.tsx"/>
+ <tileset firstgid="901" source="roguelikeSheet_transparent.tsx"/>
+ <layer name="Background" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJyVk0EOgCAQA0l8O7zbiwdDttP2QCRal90y3c9a+7fOt7Z43vsj3rd79f1eTncG7f1u0k31SKv0akZVT81HZ05a58nUD93t1Jeam3RUb5o15a3pRfnktI4n5ydxou4/9Yh0rs9G33KostrkNWWOvFGzkYfEj+OJsusy7dhyLFJeGrZo37BH3tHsCXvkJfHlajm+aB7qo50tyUribfIvce0y0nCmmHGcqSwlHjYcUA4dB+6+VMaIPXW28uEFE49NSg==
+  </data>
+ </layer>
+ <layer name="Ground" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgx3sY2Zg+IUH72em3I5DQDO6cODDQHyASnYcRjLzMI3sQDcf2R5a2IFuF7XDCj0uqOkPdD8cpoEdXczY452W6Yra/vgONKMDD/5BBTtGwSgYBaOAVAAAm/A/9w==
+  </data>
+ </layer>
+ <layer name="Object" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHbwnpWB4QMrbe3QYGNg0GSjrR2jYBSMglEwCqgHAMU1Akc=
+  </data>
+ </layer>
+ <objectgroup name="collision">
+  <object id="4" x="160.5" y="143.5">
+   <polyline points="0,0 14.5,14.25 15,31.25 -15.25,32 -15.25,13.5 0.5,-0.25"/>
+  </object>
+ </objectgroup>
+</map>
