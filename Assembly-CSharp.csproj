@@ -75,7 +75,7 @@
     <Compile Include="Assets\Project\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\Project\Scripts\StartBattle.cs" />
     <Compile Include="Assets\Project\Scripts\Title\ChangeScene.cs" />
-    <Compile Include="Assets\Project\Scripts\Town\PlayerMovement.cs" />
+    <Compile Include="Assets\Project\Scripts\Town\PlayerController.cs" />
     <Compile Include="Assets\Project\Scripts\TurnSystem.cs" />
     <Compile Include="Assets\Project\Scripts\UI\ShowUnitHealth.cs" />
     <Compile Include="Assets\Project\Scripts\UI\ShowUnitMana.cs" />
