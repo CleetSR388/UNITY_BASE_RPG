@@ -126,4 +126,16 @@ public class UnitStats : MonoBehaviour, IComparable {
        
     }
 
+    public void usePotion()
+    {
+
+        health += 20;
+        if(health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        GameObject.Find("TurnSystem").GetComponent<TurnSystem>().WaitThenNextTurn();
+        //health = GetComponent<UsePotion>().Heal();
+    }
+
 }

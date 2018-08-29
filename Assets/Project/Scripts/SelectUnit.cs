@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SelectUnit : MonoBehaviour {
 
-	private GameObject currentUnit;
+	public GameObject currentUnit;
 	private GameObject actionsMenu;
 	private GameObject enemyUnitsMenu;
 
@@ -27,8 +27,8 @@ public class SelectUnit : MonoBehaviour {
 		currentUnit.GetComponent<PlayerUnitAction> ().UpdateHUD ();
 	}
 
-	public void SelectAttack (bool physical) {
-		currentUnit.GetComponent<PlayerUnitAction> ().SelectAttack (physical);
+	public void SelectAttack (bool physical, bool potion) {
+		currentUnit.GetComponent<PlayerUnitAction> ().SelectAttack (physical, potion);
 
 		actionsMenu.SetActive (false);
 		enemyUnitsMenu.SetActive (true);

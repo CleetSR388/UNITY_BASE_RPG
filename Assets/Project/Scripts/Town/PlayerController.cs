@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -31,6 +32,12 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(SceneManager.GetActiveScene().name == "Battle")
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        else { this.gameObject.GetComponent<SpriteRenderer>().enabled = true; }
+
 
         playerMoving = false;
 
@@ -65,4 +72,5 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("LastMoveX", lastMove.x);
         anim.SetFloat("LastMoveY", lastMove.y);
     }
+
 }
