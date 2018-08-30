@@ -27,8 +27,8 @@ public class SelectUnit : MonoBehaviour {
 		currentUnit.GetComponent<PlayerUnitAction> ().UpdateHUD ();
 	}
 
-	public void SelectAttack (bool physical, bool potion) {
-		currentUnit.GetComponent<PlayerUnitAction> ().SelectAttack (physical, potion);
+	public void SelectAttack (bool physical, bool potion, bool manaPotion) {
+		currentUnit.GetComponent<PlayerUnitAction> ().SelectAttack (physical, potion, manaPotion);
 
 		actionsMenu.SetActive (false);
 		enemyUnitsMenu.SetActive (true);

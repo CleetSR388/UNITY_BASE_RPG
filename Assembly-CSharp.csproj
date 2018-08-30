@@ -99,6 +99,7 @@
     <Compile Include="Assets\Project\Waterfall\2d-techdemos-master\Assets\Tilemap\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
     <Compile Include="Assets\Project\Waterfall\2d-techdemos-master\Assets\Tilemap\Tiles\Weighted Random Tile\Scripts\WeightedRandomTile.cs" />
     <Compile Include="Assets\Project\Waterfall\Palettes\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />
+    <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\ShowUnitXP.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
@@ -135,6 +136,7 @@
     <None Include="Assets\Project\Sprites\Hearts\PNG\health_bar\info.txt" />
     <None Include="Assets\Project\Waterfall\2d-techdemos-master\Assets\Tilemap\Normal Mapping\Material\Shader\NormalMappedTile.shader" />
     <None Include="Assets\Project\Sprites\parallax_mountain_pack\license.txt" />
+    <None Include="Assets\Project\Sprites\read_me.txt" />
     <None Include="Assets\Project\Sprites\Battle-background-hazy-hills-files\Battle-background-hazy-hills-files\license.txt" />
     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
     <None Include="Assets\Project\Sprites\Free_Desert\Free Sand Tileset - Readme.txt" />

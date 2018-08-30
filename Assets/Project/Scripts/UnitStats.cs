@@ -135,7 +135,15 @@ public class UnitStats : MonoBehaviour, IComparable {
             health = maxHealth;
         }
         GameObject.Find("TurnSystem").GetComponent<TurnSystem>().WaitThenNextTurn();
-        //health = GetComponent<UsePotion>().Heal();
     }
+    public void useManaPotion()
+    {
 
+        mana += 20;
+        if (mana > maxMana)
+        {
+            mana = maxMana;
+        }
+        GameObject.Find("TurnSystem").GetComponent<TurnSystem>().WaitThenNextTurn();
+    }
 }

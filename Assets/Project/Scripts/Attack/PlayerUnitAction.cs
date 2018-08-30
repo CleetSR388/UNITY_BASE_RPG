@@ -21,6 +21,8 @@ public class PlayerUnitAction : MonoBehaviour {
 	private GameObject physicalAttack;
 	private GameObject magicalAttack;
     public GameObject usePotion;
+    public GameObject useManaPotion;
+    public bool _manaPotion;
     public bool _potion;
     UnitStats unitStats;
 
@@ -43,22 +45,33 @@ public class PlayerUnitAction : MonoBehaviour {
             target = null;
             //currentAttack.GetComponent<UsePotion>().Heal(target);
         }
+        else if(currentAttack == useManaPotion)
+        {
+            unitStats = this.gameObject.GetComponent<UnitStats>();
+            unitStats.useManaPotion();
+            target = null;
+        }
         else
         {
             currentAttack.GetComponent<AttackTarget>().Hit(target);
         }
 	}
 
-	public void SelectAttack (bool physical, bool potion) {
-        if (!potion)
+	public void SelectAttack (bool physical, bool potion, bool manaPotion) {
+        if (!potion && !manaPotion)
         {
             currentAttack = physical ? physicalAttack : magicalAttack;
             _potion = false;
         }
-        else
+        else if (potion == true)
         {
             currentAttack = usePotion;
             _potion = true;
+        }
+        else
+        {
+            currentAttack = useManaPotion;
+            _manaPotion = true;
         }
 	}
 

@@ -8,6 +8,7 @@ public class AddButtonCallback : MonoBehaviour {
 	[SerializeField]
 	private bool physical;
     [SerializeField] private bool potion;
+    [SerializeField] private bool manaPotion;
 
 
     // Use this for initialization
@@ -18,7 +19,7 @@ public class AddButtonCallback : MonoBehaviour {
 	private void AddCallback() {
 
             GameObject playerParty = GameObject.Find("PlayerParty");
-            playerParty.GetComponent<SelectUnit>().SelectAttack(physical, potion);
+            playerParty.GetComponent<SelectUnit>().SelectAttack(physical, potion, manaPotion);
         
 	}
 }
