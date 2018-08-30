@@ -70,6 +70,7 @@
     <Compile Include="Assets\Project\Scripts\CreateEnemyMenuItems.cs" />
     <Compile Include="Assets\Project\Scripts\KillEnemy.cs" />
     <Compile Include="Assets\Project\Scripts\LevelSystem.cs" />
+    <Compile Include="Assets\Project\Scripts\listen.cs" />
     <Compile Include="Assets\Project\Scripts\LoadNewArea.cs" />
     <Compile Include="Assets\Project\Scripts\PlayerStartPoint.cs" />
     <Compile Include="Assets\Project\Scripts\RunFromBattle.cs" />
