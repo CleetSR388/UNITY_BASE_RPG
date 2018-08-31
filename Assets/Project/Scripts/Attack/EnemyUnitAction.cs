@@ -42,7 +42,7 @@ public class EnemyUnitAction : MonoBehaviour {
     {
 
         {
-            GameObject tmp = (GameObject)Instantiate(BoomPrefab, Boompos.position, Quaternion.Euler(new Vector3(0, 0, -180)));
+            GameObject tmp = (GameObject)Instantiate(BoomPrefab, Boompos.position, Quaternion.Euler(new Vector3(180, 0, 0)));
 
         }
     }

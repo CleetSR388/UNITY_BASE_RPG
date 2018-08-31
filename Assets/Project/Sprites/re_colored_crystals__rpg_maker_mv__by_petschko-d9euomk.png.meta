@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: 63b474bbb055c95459c005a8bb4f3ad0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_0
+    21300002: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_1
+    21300004: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_2
+    21300006: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_3
+    21300008: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_4
+    21300010: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_5
+    21300012: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_6
+    21300014: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_7
+    21300016: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_8
+    21300018: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_9
+    21300020: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_10
+    21300022: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_11
+    21300024: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_12
+    21300026: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_13
+    21300028: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_14
+    21300030: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_15
+    21300032: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_16
+    21300034: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_17
+    21300036: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_18
+    21300038: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_19
+    21300040: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_20
+    21300042: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_21
+    21300044: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_22
+    21300046: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_23
+    21300048: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_24
+    21300050: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_25
+    21300052: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_26
+    21300054: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_27
+    21300056: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_28
+    21300058: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_29
+    21300060: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_30
+    21300062: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_31
+    21300064: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_32
+    21300066: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_33
+    21300068: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_34
+    21300070: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_35
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c5078ed9186d439db21c646fc0add
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675a19c59ed129f439425ad66fb5458b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190c8a2bf11b1ef448a84ebc811dd1de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab12207343c75042aada3958038adac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0673b98dd89b6de4688ba264cfc7cc61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc73316fc162d9640b258f1a395334b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9585f41f16dcc41839aec53aec12a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c129c74d55c1944b1d3f58d12a024e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_8
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caf00fecd867094ba8a93b2cf0c12b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838d738a783e55041b9e7fe0537caeed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07520f651d1816c4d85f4101f0664614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_11
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 146
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24d20a249a9af84a8651a26a4af8b90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b786db4d3a44c5149a2c99832f433bfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0b3356f54f4404eb22fd73553a0a14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0f3e4bc8652944f85e423736c69c17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_15
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8d8a82dc39f2842ac85e03d1c2da18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_16
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d8c698fcb0eb6498a5b3e4dc5ea26c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_17
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6bb8c7404d4af428931d5b76556ee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44d64aa146ab9045a5d8073487ab8f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_19
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8e8986a72dd644693b5e90d4978c7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cae28d1653fb5f4790f6d32b19a20cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c68abafddc0e964ba29044c63016c6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_22
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f644ed5a6167fc4fb5a12b997455c82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_23
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 96
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230698576ae6e1b4da3ed583d4d26661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003d987a80ff55442a2b5cc1278c1949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1919783d1d1df1047bec76d1a3203213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_26
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c656c58cbc063cd498fbe0227c0e0b0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d53e7c8ac7f7324cb2a5dc7541eef62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d925ab168c2ad74991cf504455c4541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_29
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce302532a6e17564380f0c2511435ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_30
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4663b1fde7fea24aa5ed86009407aa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_31
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ed1c2f65fa49e4f8fc6f889361da88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_32
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f40e4007e45cba4ca012e05ba2fd3ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_33
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0655b150abf774bbf143336aeb5af4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_34
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d1dd8304a5e640a1b6f5cd92cca97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: re_colored_crystals__rpg_maker_mv__by_petschko-d9euomk_35
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c613c65357985148b7d2d0447947c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4b657899a521f7741acce1bd4a0663d8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

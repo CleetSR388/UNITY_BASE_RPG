@@ -116,7 +116,7 @@ public class PlayerUnitAction : MonoBehaviour
     {
 
         {
-            GameObject tmp = (GameObject)Instantiate(SlashPrefab, slashpos.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            GameObject tmp = (GameObject)Instantiate(SlashPrefab, slashpos.position, Quaternion.Euler(new Vector3(0, 0, 180)));
 
         }
     }
