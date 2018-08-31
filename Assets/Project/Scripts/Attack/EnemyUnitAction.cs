@@ -10,7 +10,10 @@ public class EnemyUnitAction : MonoBehaviour {
 	[SerializeField]
 	private string targetsTag;
 
-	private GameObject attack;
+    [SerializeField]
+    public GameObject BoomPrefab;
+
+    private GameObject attack;
 
 	void Awake () {
 		attack = Instantiate (attackPrefab);
@@ -31,4 +34,16 @@ public class EnemyUnitAction : MonoBehaviour {
 		GameObject target = FindRandomTarget ();
 		attack.GetComponent<AttackTarget> ().Hit (target);
 	}
+
+    [SerializeField]
+    protected Transform Boompos;
+
+    public virtual void ThrowBoom(int value)
+    {
+
+        {
+            GameObject tmp = (GameObject)Instantiate(BoomPrefab, Boompos.position, Quaternion.Euler(new Vector3(0, 0, -180)));
+
+        }
+    }
 }
