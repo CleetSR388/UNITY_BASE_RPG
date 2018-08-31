@@ -16,6 +16,9 @@ public class PlayerUnitAction : MonoBehaviour
     public GameObject FireballPrefab;
 
     [SerializeField]
+    public GameObject SlashPrefab;
+
+    [SerializeField]
     private GameObject usePotionPrefab;
 
     [SerializeField]
@@ -103,6 +106,18 @@ public class PlayerUnitAction : MonoBehaviour
         {
             GameObject tmp = (GameObject)Instantiate(FireballPrefab, fireballpos.position, Quaternion.Euler(new Vector3(0, 0, 0)));
          
+        }
+    }
+
+    [SerializeField]
+    protected Transform slashpos;
+
+    public virtual void ThrowSlash(int value)
+    {
+
+        {
+            GameObject tmp = (GameObject)Instantiate(SlashPrefab, slashpos.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+
         }
     }
 }
